@@ -30,4 +30,4 @@ int main()
     cout<<"nota za skok: "<<suma<<endl;
     
     return 0;
-       
+}
