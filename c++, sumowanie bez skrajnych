@@ -16,7 +16,7 @@ int main()
     maks=nota;
     suma=nota;
     
-    for(int i=1; i<=n; i++)
+    for(int i=1; i<=n-1; i++)
     {
         cin>>nota;
         suma=suma+nota;
@@ -25,10 +25,9 @@ int main()
     }
     
     suma=suma-mini-maks;
-    cout<<"/nNoty skrajne: "<<mini;
+    cout<<"\n Noty skrajne: "<<mini;
     cout<< " i "<<maks<<endl;
     cout<<"nota za skok: "<<suma<<endl;
     
     return 0;
-}
        
