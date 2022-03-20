@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"podaj ilość not"; cin>>n;
+    
+    float nota,maks,mini,suma;
+    
+    
+    cout<<"wprowadz noty"<<endl;
+    cin>>nota;
+    mini=nota;
+    maks=nota;
+    suma=nota;
+    
+    for(int i=1; i<=n; i++)
+    {
+        cin>>nota;
+        suma=suma+nota;
+        if (nota<mini) mini=nota;
+        if (nota>maks) maks=nota;
+    }
+    
+    suma=suma-mini-maks;
+    cout<<"/nNoty skrajne: "<<mini;
+    cout<< " i "<<maks<<endl;
+    cout<<"nota za skok: "<<suma<<endl;
+    
+    return 0;
+}
+       
