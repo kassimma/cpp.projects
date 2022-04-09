@@ -1,0 +1,25 @@
+// liczba parzysta albo nieparzysta - program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+ 
+    int liczba;
+    cout<<endl<<"Podaj liczbe"<<endl;
+    cin>>liczba;
+
+
+    if(liczba % 2 ==0)
+    {
+        cout<<"LICZBA PARZYSTA"<<endl;
+    }
+    else
+    {
+        cout<<"LICZBA NIEPARZYSTA"<<endl;
+    }
+
+  
+  
+}
